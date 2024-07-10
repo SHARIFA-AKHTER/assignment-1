@@ -155,3 +155,40 @@
   text-decoration: column;
 }
 
+.section-id{
+    display: flex;
+    padding-left: 20%;
+}
+.card{
+   background-color: gainsboro;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px #0000001a;
+   overflow: hidden;
+   width: 300px;
+   margin: 20px;
+   transition: 0.3s ease;
+}
+.card-image{
+    
+    object-fit: cover;
+}
+.card-content{
+    padding: 20px;
+    
+}
+.card-title{
+    
+    font-size:20px;
+    margin-bottom: 10px;
+}
+.cart-text{
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+    
+}
+.card-button{
+    display: inline-flex;
+    font-size: 1rem;
+    
+}
